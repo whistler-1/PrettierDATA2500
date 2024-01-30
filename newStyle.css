@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Literata:opsz@7..72&display=swap');
+
+.body {
+  font-family: 'Literata', serif;
+    /*Denne fonten er laget for ebøker, passer bra til oppgavetekst*/
+  margin: 5vw 15vw 10vw 10vw;
+    /*Litt luft på siden av teksten som tilpasser seg til skjermstørrelse*/
+  font-size: 1em;
+}
+
+img {
+  max-width:80vw;
+    /*Juster bildestørrelse ift skjermstørrelse*/
+}
+
+table, td {
+  width:auto;
+  /*Gjør at tabellene på hovedsiden justerer størrelsen litt ift skjermen*/
+}
+
+tt, pre {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: whitesmoke;
+  /*fremhever "codetekst"*/
+}
+
+li {
+  margin-bottom: 20px;
+  /*Mer mellomrom mellom listeelementer */
+}
+
+@media only screen and (max-width: 700px) {
+  /*Litt enkel responsiv design, gjør at nettsiden funker litt bedre på mindre skjermer*/
+
+  body {
+    margin-left: 5%;
+    margin-right: 7%;
+    font-size: 1em;
+  }
+
+  table{
+    padding: 0;
+    /**/
+  }
+}
