@@ -18,7 +18,7 @@ table, td {
   /*Gjør at tabellene på hovedsiden justerer størrelsen litt ift skjermen*/
 }
 
-tt, pre {
+tt, pre, code {
   font-family: 'JetBrains Mono', monospace;
   background-color: whitesmoke;
   /*fremhever "codetekst"*/
